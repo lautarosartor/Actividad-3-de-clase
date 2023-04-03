@@ -1,0 +1,32 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.conteiner {
+    text-align: center;
+}
+
+.icono {
+    margin: 10px;
+    border: 3px solid rgba(0, 127, 84, .5);
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 127, 84, .5);
+    transition: all 0.5s;
+}
+
+.icono img {
+    width: 70%;
+}
+
+.icono:hover {
+    transform: scale(1.1);
+}
